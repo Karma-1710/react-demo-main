@@ -1,35 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
 import Particles from './components/Particles';
-import "./fonts/Valorax-lg25V.otf"  
-import logo2 from "./logotech.png"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <a
-          className="App-link"
-          href="https://particles.js.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          tsParticles
-        </a> */}
-        <img src={logo2} alt=""  />
-      </header>
+    <div className='flex flex-col h-screen justify-center items-center'>
+      <h1 className="text-white font-valorax text-9xl">
+        TECHIDEATE
+      </h1>
       <Particles id="tsparticles" />
     </div>
   );
